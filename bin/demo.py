@@ -1,3 +1,8 @@
+import os
+import sys
+libpath = os.path.join(os.getcwd(), './dependencies')
+sys.path.insert(0, libpath)
+
 import web
         
 urls = (

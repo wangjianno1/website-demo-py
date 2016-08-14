@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "Hello World!!!"
+echo "statup web server....."
+
+nohup python bin/demo.py &
+
+echo "Done, working...."
+
